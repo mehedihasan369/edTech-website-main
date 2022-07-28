@@ -7,3 +7,24 @@
     justify-content: center;
     margin: 10%;
 }
+
+
+/* ---------------
+------Media Queries------
+-----------------*/
+
+
+/*---------------
+    Mobile devices
+-----------------*/
+@media only screen and (max-width:688px) {
+    .cover-text {
+        width: 250px;
+        height: 150px;
+        font-size: 10px;
+    }
+    .cover-img{height: 262px;
+        width: 335px;
+
+    }
+}
